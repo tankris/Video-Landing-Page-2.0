@@ -9,25 +9,27 @@
       integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
       crossorigin="anonymous"
     />
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
     <div class="intro-container">
       <div class="image-container">
         <!-- Using empty alt since its a decorative image -->
-        <img src="#" alt="" />
+        <img src="/resources/background-poster.jpg" alt="" />
       </div>
       <div class="video-container">
         <video muted autoplay loop>
-          <source src="#" type="video/mp4" />
+          <source src="/resources/background-video.mp4" type="video/mp4" />
         </video>
       </div>
       <div class="content-container">
-        <h1>Melt your mind</h1>
+        <h1>Melt Your Mind</h1>
         <p>Art that makes your soul stir</p>
-        <a>Read More</a>
+        <a href="#summary">Read More</a>
       </div>
     </div>
-    <section class="summary-container">
+    <section class="summary-container" id="summary">
       <h2>Summary</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
@@ -37,10 +39,19 @@
       </p>
     </section>
     <section class="social-container">
-      <p>Follow me on</p>
-      <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-      <a href="#"><i class="fab fa-github fa-3x"></i></a>
-      <a href="#"><i class="fas fa-globe fa-3x"></i></a>
+      <h2>Follow me on</h2>
+
+      <div class="social-icons-container">
+        <a href="https://www.linkedin.com/in/tanishqkrishnan"
+          ><i class="fab fa-linkedin fa-3x"></i
+        ></a>
+        <a href="https://www.github.com/tankris"
+          ><i class="fab fa-github fa-3x"></i
+        ></a>
+        <a href="https://www.tanishqkrishnan.com"
+          ><i class="fas fa-globe fa-3x"></i
+        ></a>
+      </div>
     </section>
     <footer>&copy; 2020 Tanishq Krishnan</footer>
   </body>
